@@ -1,0 +1,358 @@
+Unity Editor version:    2022.3.40f1 (cbdda657d2f0)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.40f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/tanmayagarwal/Documents/First project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64176
+Successfully changed project path to: /Users/tanmayagarwal/Documents/First project
+/Users/tanmayagarwal/Documents/First project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8426802176]  Target information:
+
+Player connection [8426802176]  * "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 3284689438 [EditorId] 3284689438 [Version] 1048832 [Id] OSXEditor(0,Tanmays-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8426802176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8426802176] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 14.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.40f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tanmayagarwal/Documents/First project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.40f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.40f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.40f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56287
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.40f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.40f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003673 seconds.
+- Loaded All Assemblies, in  0.241 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.172 seconds
+Domain Reload Profiling: 413ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (71ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (93ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (172ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (139ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.478 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 892ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (309ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.40f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4027 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (194.2 KB). Loaded Objects now: 4490.
+Memory consumption went from 146.0 MB to 145.8 MB.
+Total: 3.172084 ms (FindLiveObjects: 0.134333 ms CreateObjectMapping: 0.052666 ms MarkObjects: 2.814542 ms  DeleteObjects: 0.169834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 305934.704549 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Prefab
+  artifactKey: Guid(cdcdd28e9a905164fa44019f7c2ea4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Prefab using Guid(cdcdd28e9a905164fa44019f7c2ea4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b0e54600923f1394418757f084ee573c') in 0.001362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Prefab/ClassicRacket.prefab
+  artifactKey: Guid(de73661888cd0a646943971f9e3670f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Prefab/ClassicRacket.prefab using Guid(de73661888cd0a646943971f9e3670f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c48203ccd53d39fc5997d5c58ce543e5') in 0.514260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Prefab/Ball2.prefab
+  artifactKey: Guid(1dc22820c8bfd6c49976357a1622ef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Prefab/Ball2.prefab using Guid(1dc22820c8bfd6c49976357a1622ef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b3149b4194423dc31c30c0ad56dd4d91') in 0.024422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 792.492837 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Ball1.mat
+  artifactKey: Guid(53a71a918f62333469652274df43fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Ball1.mat using Guid(53a71a918f62333469652274df43fbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c0e4a9d913cbf9fded46e3f3eda64a3') in 0.028260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Wood2.mat
+  artifactKey: Guid(883596f1a22d07b4a8fd3b5a509cef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Wood2.mat using Guid(883596f1a22d07b4a8fd3b5a509cef7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b9ef576cc2e7acf26a5e9c0b00b16b4d') in 0.021413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.003228 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Classic Black.mat
+  artifactKey: Guid(6ad992835c787fd47a0bdb1b2e96bf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Classic Black.mat using Guid(6ad992835c787fd47a0bdb1b2e96bf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0dea974ef55b187fe30480a7dd5ff349') in 0.011995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 724.780776 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials
+  artifactKey: Guid(533b08bfd382a2b49aedcbb565fa22f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials using Guid(533b08bfd382a2b49aedcbb565fa22f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7346ddd9d6aeb8d0820324a328bce1ea') in 0.001483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.423138 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat
+  artifactKey: Guid(84d107dca96ba14449e6e4dd3f8ba199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat using Guid(84d107dca96ba14449e6e4dd3f8ba199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a379f9ef0afa4fc5f2dd6012fc904dc9') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.038727 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex
+  artifactKey: Guid(5e855d897196ca84b9c7aba54c42cd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex using Guid(5e855d897196ca84b9c7aba54c42cd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f63189d3cb3e91b2c5e3a2bf353bad43') in 0.000531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.271715 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Ball Metallic.png
+  artifactKey: Guid(b4b35bb006d0eae429e1db3e12d39cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Ball Metallic.png using Guid(b4b35bb006d0eae429e1db3e12d39cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9a866e9d39736de3b72d9e00c8f48310') in 0.026317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Racket Normal.png
+  artifactKey: Guid(4c4e6c5d526044b4b83914d2f1ff7025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Racket Normal.png using Guid(4c4e6c5d526044b4b83914d2f1ff7025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '82bd7dfa6cb177905b8de54888be0269') in 0.059264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Racket Black Base.png
+  artifactKey: Guid(3635b68ce36086d419e204a7b5fc6a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Racket Black Base.png using Guid(3635b68ce36086d419e204a7b5fc6a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c42e45591744751d7e4db45f6bbe0cae') in 0.004997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Racket Red Base.png
+  artifactKey: Guid(b48f01a90b47b5a44ac5fc709a3cfb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Racket Red Base.png using Guid(b48f01a90b47b5a44ac5fc709a3cfb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd286bc6e98835bd4b4eeaad881ddde68') in 0.005118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Wood1 Base.png
+  artifactKey: Guid(03c3cabd62471b443bb86812cdafee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Wood1 Base.png using Guid(03c3cabd62471b443bb86812cdafee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1d41d92e3f66a2a644d55ca7ce934e52') in 0.008512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Wood1 Metallic.png
+  artifactKey: Guid(d479fb02ece04e34d8976d01cbd9eb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Wood1 Metallic.png using Guid(d479fb02ece04e34d8976d01cbd9eb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '20afa29a39557a804fe8481853bfaa91') in 0.006336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Wood1 Normal.png
+  artifactKey: Guid(12034ed66f113c94f80499f13931e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Wood1 Normal.png using Guid(12034ed66f113c94f80499f13931e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5d6666b3d022d2a2749def79b9f2bd43') in 0.008358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Racket Metallic.png
+  artifactKey: Guid(eacfdd4ca9aadde45969617686c1e03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrossLabs/Classic Ping-Pong Racket/Materials/Racket Mat/Racket Tex/Racket Metallic.png using Guid(eacfdd4ca9aadde45969617686c1e03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ecfee38d0a418423add0a9474de3e13') in 0.005442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
